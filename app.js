@@ -14,7 +14,7 @@ let nombres = [];
         }
 
         function actualizarLista() {
-            const lista = document.getElementById('nombresLista');
+            const lista = document.getElementById('listaAmigos');
             lista.innerHTML = "";
             nombres.forEach(nombre => {
                 const li = document.createElement('li');
